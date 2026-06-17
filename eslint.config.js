@@ -20,5 +20,8 @@ export default defineConfig([
     languageOptions: {
       globals: globals.browser,
     },
+    rules: {
+      'prefer-const': 'error',
+    },
   },
 ])
